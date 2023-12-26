@@ -1,0 +1,2888 @@
+@charset "UTF-8";
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: "Cera Round Pro Bold";
+  src: url("../fonts/Cera Round Pro Bold.woff2") format("woff2"), url("../fonts/Cera Round Pro Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Cera Round Pro Bold tel";
+  src: url("../fonts/ceraroundpro-bold-webfont.woff2") format("woff2"), url("../fonts/ceraroundpro-bold-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Cera Round Pro Medium";
+  src: url("../fonts/CeraRoundPro-Medium.woff2") format("woff2"), url("../fonts/CeraRoundPro-Medium.woff") format("woff");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.unvisible {
+  display: none;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1560px;
+  padding: 0 15px;
+  transition: all 1s;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.btn {
+  font-family: "Cera Round Pro Bold";
+  font-size: 15px;
+  border-radius: 73px;
+  background: #00CEBF;
+  color: #fff !important;
+  text-decoration: none;
+  padding: 18px 30px;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.btn span {
+  position: relative;
+  z-index: 10;
+}
+
+.btn::before, .btn::after {
+  background-color: #01B6A9;
+  border-radius: 50%;
+  content: "";
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  transition: all .5s ease-in;
+  z-index: 0;
+}
+
+.btn::before {
+  top: -43px;
+  left: -43px;
+}
+
+.btn::after {
+  bottom: -43px;
+  right: -43px;
+}
+
+.btn:hover::before, .btn:hover::after {
+  backface-visibility: hidden;
+  transform: scale(10);
+}
+
+input[type="date"] {
+  position: relative;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  height: auto;
+  color: transparent;
+  background: transparent;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-clear-button {
+  z-index: -10;
+}
+
+input[type="date"]::-webkit-input-placeholder {
+  z-index: 99;
+}
+
+input[type="date"]:placeholder {
+  z-index: 99;
+}
+
+input[type="date"]:not(.has-value):before {
+  width: 100%;
+}
+
+input[type="date"] {
+  padding: 12px 5px;
+}
+
+.header {
+  margin: 7px 0 10px 0;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__menu__logo {
+  display: flex;
+  align-items: center;
+  padding-right: 30px;
+}
+
+.header__menu__logo .layout {
+  display: flex;
+  justify-content: center;
+  width: 48.01px;
+  height: 48.01px;
+  background: #00CEBF;
+  border-radius: 14.36px;
+  align-items: center;
+  margin-right: 11.5px;
+}
+
+.header__menu__logo .layout img {
+  width: 29.1px;
+  height: 30.01px;
+}
+
+.header__menu__list {
+  width: 75%;
+  display: flex;
+}
+
+.header__menu__list__item {
+  font-size: 15px;
+  font-family: "Cera Round Pro Medium";
+  color: #003E47 !important;
+  text-decoration: none;
+  margin-right: 29.4px;
+  position: relative;
+  transition: all .4s;
+}
+
+.header__menu__list__item::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: #01B6A9;
+  bottom: 0;
+  transition: width 0.3s ease;
+}
+
+.header__menu__list__item:hover {
+  color: #01B6A9 !important;
+}
+
+.header__menu__list__item:hover::before {
+  width: 100%;
+}
+
+.header__menu__link__btn {
+  font-family: "Cera Round Pro Bold";
+  font-size: 15px;
+  border-radius: 73px;
+  background: #00CEBF;
+  color: #fff;
+  text-decoration: none;
+  height: 48px;
+  padding: 20px 30px 33px;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.header__menu__link__btn span {
+  position: relative;
+  z-index: 10;
+}
+
+.header__menu__link__btn::before, .header__menu__link__btn::after {
+  background-color: #01B6A9;
+  border-radius: 50%;
+  content: "";
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  transition: all .3s ease-in;
+  z-index: 1;
+}
+
+.header__menu__link__btn:hover::before, .header__menu__link__btn:hover::after {
+  backface-visibility: hidden;
+  transform: scale(10);
+}
+
+.header-small {
+  display: none;
+  height: 68px;
+  position: relative;
+  z-index: 1;
+}
+
+.header-small__wrapper {
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-small__contacts {
+  width: 750px;
+}
+
+.header-small__contacts__title {
+  font-family: "Cera Round Pro Bold";
+  font-size: 32px;
+  line-height: 32px;
+  color: #003E47;
+  padding-bottom: 24px;
+}
+
+.header-small__contacts__text {
+  font-family: "Cera Round Pro Medium";
+  font-size: 16px;
+  color: #003E47;
+  line-height: 24px;
+  padding-bottom: 48px;
+}
+
+.header-small__contacts .wrapper {
+  justify-content: space-between;
+}
+
+.header-small__contacts__contact {
+  width: auto;
+  margin: 24px 0 30px;
+  text-align: start;
+}
+
+.header-small__contacts__contact__title {
+  font-family: "Cera Round Pro Bold" !important;
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+  color: #003E47;
+}
+
+.header-small__contacts__contact__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-small__contacts__contact__wrapper a {
+  font-family: "Cera Round Pro Bold tel" !important;
+  font-size: 24px;
+  color: #003E47;
+  text-decoration: none;
+}
+
+.header-small__contacts__column__messengers {
+  text-align: center;
+}
+
+.header-small__contacts__column__messengers__title {
+  font-family: "Cera Round Pro Bold";
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #003E47;
+  padding-bottom: 24px;
+}
+
+.header-small__contacts__column__messengers a {
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.header-small__contacts__column__messengers__link {
+  margin-bottom: 30px;
+}
+
+.header-small__contacts__column__address {
+  text-align: center;
+}
+
+.header-small__contacts__column__address__title {
+  font-family: "Cera Round Pro Bold";
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #003E47;
+  padding-bottom: 24px;
+}
+
+.header-small__contacts__column__address__info {
+  text-align: start;
+  display: flex;
+}
+
+.header-small__contacts__column__address__info img {
+  margin-right: 12px;
+}
+
+.header-small__contacts__column__address__info__link {
+  font-family: "Cera Round Pro Bold" !important;
+  font-size: 24px;
+  line-height: 31.2px;
+  color: #003E47;
+  text-decoration: none;
+  width: 100%;
+}
+
+.header-small .application__contacts__contact__tel {
+  width: 225px;
+  margin: 0 auto;
+}
+
+.header-small .navbar {
+  width: 100%;
+  box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.08);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.header-small .nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 49px;
+}
+
+.header-small .menu-items {
+  width: 100%;
+  background-color: #fff;
+  position: absolute;
+  top: -10px;
+  left: -150vw;
+  padding-top: 109px;
+  padding-bottom: 32px;
+  text-align: center;
+  transition: .6s ease-in-out;
+  z-index: -1;
+}
+
+.header-small .navbar .nav-container li {
+  list-style: none;
+}
+
+.header-small .nav-container {
+  display: flex;
+  position: relative;
+  height: 48px;
+}
+
+.header-small .nav-container .checkbox {
+  position: absolute;
+  display: block;
+  height: 32px;
+  width: 93px;
+  right: 16px;
+  z-index: 5;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.header-small .nav-container .wrapper {
+  width: 93px;
+  height: 32px;
+}
+
+.header-small .nav-container .hamburger-lines {
+  display: block;
+  height: 10px;
+  width: 32px;
+  position: absolute;
+  top: 18px;
+  right: 77px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all .4s ease-in-out;
+}
+
+.header-small .nav-container .hamburger-text {
+  font-family: "Cera Round Pro Bold";
+  font-size: 16px;
+  color: #1E2C3A;
+  position: absolute;
+  right: 16px;
+  top: 15px;
+}
+
+.header-small .nav-container .hamburger-lines .line {
+  display: block;
+  height: 2px;
+  width: 100%;
+  border-radius: 10px;
+  background: #1E2C3A;
+}
+
+.header-small .nav-container .hamburger-lines .line1 {
+  transform-origin: 38% 0%;
+  transition: transform 0.4s ease-in-out;
+}
+
+.header-small .nav-container .hamburger-lines .line2 {
+  transition: transform 0.2s ease-in-out;
+}
+
+.header-small .nav-container .hamburger-lines .line3 {
+  width: 50%;
+  transform-origin: 22% 100%;
+  transition: all 0.4s ease-in-out;
+}
+
+.header-small .menu-items ul li {
+  margin-bottom: 23px;
+  font-size: 24px;
+}
+
+.header-small .menu-items ul li:last-child {
+  margin-bottom: 32px;
+}
+
+.header-small .menu-items ul li a {
+  text-decoration: none;
+  font-family: "Cera Round Pro Bold";
+  color: #003E47;
+}
+
+.header-small .item-small {
+  position: relative;
+  transition: all .4s;
+}
+
+.header-small .item-small::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: #01B6A9;
+  bottom: 0;
+  transition: width 0.3s ease;
+}
+
+.header-small .item-small:hover {
+  color: #01B6A9 !important;
+}
+
+.header-small .item-small:hover::before {
+  width: 100%;
+}
+
+.header-small .logo {
+  position: relative;
+  font-size: 1.2rem;
+  color: #0e2431;
+  z-index: 2;
+}
+
+.header-small .rotate-one {
+  transform: rotate(45deg);
+}
+
+.header-small .scale-two {
+  transform: scaleY(0);
+}
+
+.header-small .rotate-three {
+  width: 100% !important;
+  transform: rotate(-45deg);
+}
+
+.header-small .move {
+  left: 0;
+}
+
+.header-small .down {
+  top: 22px !important;
+  right: 93px !important;
+}
+
+.header-small .open {
+  width: 94px !important;
+}
+
+.header-small .noscroll {
+  overflow: hidden;
+}
+
+.head {
+  width: 100%;
+  overflow: hidden;
+}
+
+.head__wrapper {
+  justify-content: space-between;
+}
+
+.head__block {
+  margin-top: 172px;
+  width: 50%;
+  color: #003E47;
+}
+
+.head__block__title {
+  font-family: "Cera Round Pro Bold";
+  font-size: 56px;
+  line-height: 67.2px;
+  width: 100%;
+  padding-bottom: 32px;
+}
+
+.head__block__text {
+  font-family: "Cera Round Pro Medium";
+  font-size: 20px;
+  line-height: 30px;
+  padding-bottom: 34px;
+}
+
+.head__form {
+  width: 750px;
+  height: 51px;
+  border: 1px solid #e3efee;
+  border-radius: 16px;
+  box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.head__form .from {
+  width: 175px;
+}
+
+.head__form .from::before {
+  content: url("../img/Pin_icon.svg");
+  position: absolute;
+  left: 15px;
+}
+
+.head__form .in {
+  width: 160px;
+}
+
+.head__form .in::before {
+  content: url("../img/Pin_icon.svg");
+  position: absolute;
+  left: 0px;
+}
+
+.head__form .calendar {
+  width: 133px;
+}
+
+.head__form .calendar::before {
+  content: url("../img/Calendar_icon.svg");
+  position: absolute;
+  left: 0px;
+}
+
+.head__form .amount {
+  width: 61px;
+}
+
+.head__form .amount::before {
+  content: url("../img/fi_user.svg");
+  position: absolute;
+  left: 0px;
+  bottom: -5px;
+}
+
+.head__form__label {
+  position: relative;
+  border-right: 1px solid #618084;
+  margin-right: 15px;
+}
+
+.head__form__label__town {
+  font-family: "Cera Round Pro Medium";
+  font-size: 15px;
+  color: #618084;
+  width: 114px;
+  height: 24px;
+  border: none;
+  outline: none;
+  margin-left: 43px;
+  position: relative;
+  border: 1px solid #fff;
+}
+
+.head__form__label .town-in {
+  margin-left: 28px;
+}
+
+.head__form__label__calendar {
+  font-family: "Cera Round Pro Medium";
+  font-size: 15px;
+  color: #618084;
+  width: 93px;
+  height: 24px;
+  outline: none;
+  margin-left: 28px;
+  margin-right: 15px;
+  border: none;
+}
+
+.head__form__label__amount {
+  font-family: "Cera Round Pro Medium";
+  font-size: 15px;
+  color: #618084;
+  width: 40px;
+  height: 24px;
+  margin-left: 28px;
+  border: none;
+  outline: none;
+}
+
+.head__form__btn {
+  width: 184px;
+  font-family: "Cera Round Pro Bold";
+  font-size: 15px;
+  color: #fff;
+  width: 159px;
+  height: 50px;
+  border: none;
+  border-radius: 0 16px 16px 0;
+  background: #00CEBF;
+  margin-left: 0;
+  cursor: pointer;
+  padding: 0;
+}
+
+.head__background__figure {
+  width: 650px;
+  height: 658px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  margin-top: 39px;
+  background: #00cebf;
+  background: linear-gradient(180deg, rgba(0, 206, 191, 0.5) 0%, rgba(0, 195, 224, 0) 100%, rgba(0, 185, 255, 0) 100%);
+  position: relative;
+}
+
+.head__background__figure img {
+  position: absolute;
+  height: auto;
+  top: -41px;
+  left: -100px;
+}
+
+.about {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.about .wrapper {
+  justify-content: space-between;
+}
+
+.about__block {
+  padding-top: 53px;
+  width: 49.02%;
+}
+
+.about__block__title {
+  font-size: 42px;
+  line-height: 54.6px;
+  color: #003E47;
+  font-family: "Cera Round Pro Bold";
+  position: relative;
+  display: inline;
+}
+
+.about__block__title::before {
+  content: url("../img/Mark.svg");
+  position: absolute;
+  left: -23px;
+  top: -14px;
+}
+
+.about__block__text {
+  font-family: "Cera Round Pro Medium";
+  font-size: 16px;
+  color: #003E47;
+  width: 730px;
+  line-height: 24px;
+  padding-top: 24px;
+  padding-bottom: 35px;
+}
+
+.about__block__facts {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.about__block__facts__fact {
+  width: 230px;
+  background: #ECFFFE;
+  text-align: center;
+  border-radius: 16px;
+  margin-bottom: 30px;
+}
+
+.about__block__facts__fact__title {
+  font-family: "Cera Round Pro Bold";
+  font-size: 42px;
+  color: #00CEBF;
+  line-height: 54.6px;
+  margin-top: 24px;
+  margin-bottom: 18px;
+}
+
+.about__block__facts__fact__text {
+  font-family: "Cera Round Pro Medium";
+  color: #003E47;
+  width: 214px;
+  margin: 0 auto;
+  line-height: 20.8px;
+  font-weight: 600;
+  padding-bottom: 24px;
+}
+
+.about__background {
+  position: relative;
+  width: 49%;
+}
+
+.about__background::before {
+  content: url("../img/element-left.svg");
+  position: absolute;
+  top: 50%;
+  margin-top: -33.5px;
+}
+
+.about__background::after {
+  content: url("../img/element-right.svg");
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: -33.5px;
+}
+
+.about__background img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.services {
+  padding-top: 92px;
+  padding-bottom: 80px;
+  background: linear-gradient(180deg, #ecfffe 0%, rgba(236, 255, 254, 0) 100%);
+}
+
+.services .block {
+  text-align: center;
+  padding-bottom: 66px;
+}
+
+.services__title {
+  font-size: 43px;
+  color: #003E47;
+  font-family: "Cera Round Pro Bold";
+  text-align: center;
+  line-height: 54.6px;
+  position: relative;
+  display: inline;
+}
+
+.services__title::before {
+  content: url("../img/Mark.svg");
+  position: absolute;
+  left: -23px;
+  top: -14px;
+}
+
+.services .wrapper {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.services__service {
+  width: 360px;
+  margin-right: 20px;
+  text-align: center;
+  border-radius: 16px;
+  box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.08);
+  padding: 30px 0;
+  margin-bottom: 30px;
+  background: #fff;
+}
+
+.services__service:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.services__service:first-child {
+  margin-left: 0;
+}
+
+.services__service:nth-child(5) {
+  margin-left: 0;
+}
+
+.services__service img {
+  padding-bottom: 12px;
+}
+
+.services__service__title {
+  font-family: "Cera Round Pro Bold";
+  font-size: 24px;
+  line-height: 31.2px;
+  color: #003E47;
+  width: 91%;
+  margin: 0 auto;
+  padding-bottom: 19px;
+}
+
+.services__service__text {
+  font-family: "Cera Round Pro Medium";
+  font-size: 15px;
+  width: 87%;
+  margin: 0 auto;
+  line-height: 22.5px;
+  color: #003E47;
+}
+
+.routes {
+  padding-top: 80px;
+  padding-bottom: 96px;
+}
+
+.routes .block {
+  text-align: center;
+  padding-bottom: 67px;
+}
+
+.routes__title {
+  font-family: "Cera Round Pro Bold";
+  font-size: 43px;
+  color: #003E47;
+  line-height: 54.6px;
+  text-align: center;
+  position: relative;
+  display: inline;
+}
+
+.routes__title::before {
+  content: url("../img/Mark.svg");
+  position: absolute;
+  left: -24px;
+  top: -13px;
+}
+
+.routes .wrapper {
+  justify-content: space-between;
+}
+
+.routes__column {
+  width: 230px;
+}
+
+.routes__column__title {
+  font-family: "Cera Round Pro Bold";
+  font-size: 24px;
+  color: #003E47;
+  padding-bottom: 16px;
+  line-height: 31.2px;
+}
+
+.routes__column__text {
+  font-family: "Cera Round Pro Bold";
+  font-size: 16px;
+  color: #003E47;
+  line-height: 32px;
+}
+
+.experience {
+  padding-top: 94px;
+  padding-bottom: 96px;
+  background: #ecfffe;
+  background: linear-gradient(180deg, #ecfffe 0%, rgba(236, 255, 254, 0) 100%);
+}
+
+.experience .block {
+  text-align: center;
+  padding-bottom: 66px;
+}
+
+.experience__title {
+  font-family: "Cera Round Pro Bold";
+  font-size: 42px;
+  color: #003E47;
+  line-height: 54.6px;
+  text-align: center;
+  position: relative;
+  display: inline;
+}
+
+.experience__title::before {
+  content: url("../img/Mark.svg");
+  position: absolute;
+  left: -26px;
+  top: -14px;
+}
+
+.experience .wrapper {
+  justify-content: space-between;
+}
+
+.experience__column {
+  width: 490px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.experience__column:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.experience__column__block {
+  width: 450px;
+  margin: 0 auto;
+}
+
+.experience__column__block__image {
+  margin-bottom: 13px;
+  position: relative;
+}
+
+.experience__column__block__image::before {
+  content: url("../img/element-left.svg");
+  position: absolute;
+  top: 50%;
+  margin-top: -33.5px;
+}
+
+.experience__column__block__image::after {
+  content: url("../img/element-right.svg");
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: -33.5px;
+}
+
+.experience__column__block__image img {
+  border-radius: 12px;
+  width: 100%;
+}
+
+.experience__column__block__title {
+  font-family: "Cera Round Pro Bold";
+  font-size: 24px;
+  color: #003E47;
+  line-height: 31.2px;
+  padding-bottom: 16px;
+}
+
+.experience__column__block__text {
+  font-family: "Cera Round Pro Medium";
+  font-size: 15px;
+  line-height: 22.5px;
+  color: #003E47;
+  width: 449px;
+  margin: 0 auto;
+}
+
+.advantages {
+  padding-top: 95px;
+  padding-bottom: 96px;
+  background: #ecfffe;
+  background: linear-gradient(180deg, #ecfffe 0%, rgba(236, 255, 254, 0) 100%);
+}
+
+.advantages .block {
+  text-align: center;
+  padding-bottom: 37px;
+}
+
+.advantages__title {
+  font-family: "Cera Round Pro Bold";
+  font-size: 42px;
+  line-height: 54.6px;
+  color: #003E47;
+  width: 304px;
+  margin: 0 auto;
+  position: relative;
+  display: inline;
+}
+
+.advantages__title::before {
+  content: url("../img/Mark.svg");
+  position: absolute;
+  left: -27px;
+  top: -13px;
+}
+
+.advantages .wrapper {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.advantages__column {
+  width: 360px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  padding-top: 30px;
+  margin-top: 30px;
+}
+
+.advantages__column:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.advantages__column img {
+  margin-bottom: 13px;
+}
+
+.advantages__column__title {
+  font-family: "Cera Round Pro Bold";
+  font-size: 24px;
+  color: #003E47;
+  line-height: 31.2px;
+  width: 91%;
+  margin: 0 auto;
+  padding-bottom: 17px;
+}
+
+.advantages__column__text {
+  font-family: "Cera Round Pro Medium";
+  font-size: 15px;
+  line-height: 22.5px;
+  color: #003E47;
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.reviews {
+  padding-top: 84px;
+  background: #ecfffe;
+  background: linear-gradient(180deg, #ecfffe 0%, rgba(236, 255, 254, 0) 100%);
+}
+
+.reviews .container {
+  overflow: hidden;
+}
+
+.reviews .block {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 64px;
+}
+
+.reviews__title {
+  font-family: "Cera Round Pro Bold";
+  font-size: 43px;
+  color: #003E47;
+  line-height: 54.6px;
+  text-align: center;
+  position: relative;
+  display: inline;
+}
+
+.reviews__title::before {
+  content: url("../img/Mark.svg");
+  position: absolute;
+  left: -26px;
+  top: -14px;
+}
+
+.reviews .slide-container {
+  padding-bottom: 96px;
+  overflow: visible;
+}
+
+.reviews .card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 23px 20px 30px 20px;
+  box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.08);
+}
+
+.reviews .card .image-box {
+  height: 300px;
+}
+
+.reviews .card .image-box img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.reviews .card .profile-details {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  padding: 15px;
+}
+
+.reviews .card .profile-details img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.reviews .wrapper {
+  display: flex;
+}
+
+.reviews .wrapper .image {
+  margin-right: 16px;
+}
+
+.reviews .wrapper .review .name {
+  font-family: "Cera Round Pro Bold";
+  font-size: 24px;
+  color: #003E47;
+  line-height: 31.2px;
+  padding-bottom: 16px;
+}
+
+.reviews .wrapper .review .town {
+  font-family: "Cera Round Pro Bold";
+  font-size: 15px;
+  color: #618084;
+  line-height: 19.5px;
+  padding-bottom: 16px;
+}
+
+.reviews .wrapper .review .text {
+  font-family: "Cera Round Pro Medium";
+  font-size: 15px;
+  color: #003E47;
+  width: 554px;
+  line-height: 22.5px;
+}
+
+.reviews .profile-details .name {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.reviews .profile-details .job {
+  font-size: 12px;
+  font-weight: 500;
+  color: #4d4d4d;
+}
+
+.reviews .swiper-navBtn {
+  color: #000000;
+  height: 48px;
+  width: 48px;
+  transform: translateY(-40%);
+  background: #ffffff;
+  border-radius: 50%;
+  box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.08);
+}
+
+.reviews .swiper-navBtn::before, .reviews .swiper-navBtn::after {
+  font-size: 24px;
+}
+
+.reviews .swiper-pagination-bullet {
+  background-color: #333333;
+}
+
+.reviews .swiper-button-prev, .reviews .swiper-rtl .swiper-button-next {
+  left: -13px;
+}
+
+.reviews .swiper-button-next, .reviews .swiper-rtl .swiper-button-prev {
+  right: -13px;
+}
+
+.team {
+  padding-top: 86px;
+}
+
+.team .container {
+  overflow: hidden;
+}
+
+.team .block {
+  text-align: center;
+  padding-bottom: 67px;
+  padding-top: 10px;
+}
+
+.team__title {
+  font-family: "Cera Round Pro Bold";
+  font-size: 42px;
+  color: #003E47;
+  line-height: 54.6px;
+  text-align: center;
+  position: relative;
+  display: inline;
+}
+
+.team__title::before {
+  content: url("../img/Mark.svg");
+  position: absolute;
+  left: -20px;
+  top: -10px;
+}
+
+.team .slide-container {
+  padding-bottom: 57px;
+  overflow: visible;
+}
+
+.team .card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 20px 20px 30px 20px;
+  box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.08);
+}
+
+.team .card .image {
+  position: relative;
+}
+
+.team .card .image::before {
+  content: url("../img/element-left.svg");
+  position: absolute;
+  top: 50%;
+  margin-top: -33.5px;
+}
+
+.team .card .image::after {
+  content: url("../img/element-right.svg");
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: -33.5px;
+}
+
+.team .card .image img {
+  width: 100%;
+  max-height: 500px;
+  border-radius: 16px;
+}
+
+.team .card .profile-details {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  padding: 15px;
+}
+
+.team .card .profile-details img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.team .wrapper {
+  display: flex;
+}
+
+.team .wrapper .image {
+  margin-right: 16px;
+}
+
+.team .review {
+  text-align: center;
+  margin-top: 13px;
+}
+
+.team .review .name {
+  font-family: "Cera Round Pro Bold";
+  font-size: 24px;
+  color: #003E47;
+  line-height: 31.2px;
+  padding-bottom: 16px;
+}
+
+.team .review .text {
+  font-family: "Cera Round Pro Medium";
+  font-size: 15px;
+  color: #003E47;
+  width: 100%;
+  line-height: 22.5px;
+}
+
+.team .swiper-button-prev, .team .swiper-rtl .swiper-button-next {
+  top: 50%;
+  left: -13px;
+}
+
+.team .swiper-button-next, .team .swiper-rtl .swiper-button-prev {
+  top: 50%;
+  right: -13px;
+}
+
+.team .profile-details .name {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.team .profile-details .job {
+  font-size: 12px;
+  font-weight: 500;
+  color: #4d4d4d;
+}
+
+.team .swiper-navBtn {
+  color: #000000;
+  height: 48px;
+  width: 48px;
+  transform: translateY(-40%);
+  background: #ffffff;
+  border-radius: 50%;
+  box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.08);
+}
+
+.team .swiper-navBtn::before, .team .swiper-navBtn::after {
+  font-size: 24px;
+}
+
+.team .swiper-pagination-bullet {
+  background-color: #333333;
+}
+
+.application {
+  padding-top: 94px;
+  padding-bottom: 96px;
+  background: #ecfffe;
+  background: linear-gradient(180deg, #ecfffe 0%, rgba(236, 255, 254, 0) 100%);
+}
+
+.application .block {
+  text-align: center;
+  padding-bottom: 65px;
+}
+
+.application__title {
+  font-size: 42px;
+  color: #003E47;
+  font-family: "Cera Round Pro Bold";
+  text-align: center;
+  position: relative;
+  line-height: 54.6px;
+  display: inline-block;
+}
+
+.application__title::before {
+  content: url("../img/Mark.svg");
+  position: absolute;
+  left: -29px;
+  top: -14px;
+}
+
+.application .wrapper {
+  justify-content: space-between;
+}
+
+.application__contacts {
+  width: 49%;
+}
+
+.application__contacts__title {
+  font-family: "Cera Round Pro Bold";
+  font-size: 32px;
+  line-height: 32px;
+  color: #003E47;
+  padding-bottom: 24px;
+}
+
+.application__contacts__text {
+  font-family: "Cera Round Pro Medium";
+  font-size: 16px;
+  color: #003E47;
+  line-height: 24px;
+  padding-bottom: 48px;
+}
+
+.application__contacts .wrapper {
+  justify-content: space-between;
+}
+
+.application__contacts__contact {
+  width: 49%;
+}
+
+.application__contacts__contact__title {
+  font-family: "Cera Round Pro Bold";
+  font-size: 20px;
+  line-height: 30px;
+  color: #003E47;
+}
+
+.application__contacts__contact__tel {
+  display: block;
+  padding-top: 25px;
+  padding-left: 44px;
+  color: #003E47;
+  font-family: "Cera Round Pro Bold tel";
+  font-size: 24px;
+  line-height: 31.2px;
+  text-decoration: none;
+  position: relative;
+}
+
+.application__contacts__contact__tel::before {
+  content: url("../img/Viber.svg");
+  position: absolute;
+  left: 0;
+}
+
+.application__contacts__contact__mail {
+  display: block;
+  padding-top: 26px;
+  padding-left: 44px;
+  color: #003E47;
+  font-family: "Cera Round Pro Bold";
+  font-size: 24px;
+  line-height: 31.2px;
+  text-decoration: none;
+  position: relative;
+}
+
+.application__contacts__contact__mail::before {
+  content: url("../img/Gmail.svg");
+  position: absolute;
+  left: 0;
+}
+
+.application__contacts__column {
+  width: 48%;
+}
+
+.application__contacts__column__messengers {
+  width: 100%;
+}
+
+.application__contacts__column__messengers__title {
+  font-family: "Cera Round Pro Bold";
+  font-size: 20px;
+  line-height: 30px;
+  color: #003E47;
+  padding-bottom: 24px;
+}
+
+.application__contacts__column__messengers a {
+  margin-right: 11px;
+  text-decoration: none;
+}
+
+.application__contacts__column__messengers__link {
+  margin-bottom: 27px;
+}
+
+.application__contacts__column__address__title {
+  font-family: "Cera Round Pro Bold";
+  font-size: 20px;
+  line-height: 30px;
+  color: #003E47;
+  padding-bottom: 24px;
+}
+
+.application__contacts__column__address__link {
+  display: block;
+  padding-left: 44px;
+  color: #003E47;
+  font-family: "Cera Round Pro Bold";
+  font-size: 24px;
+  line-height: 31.2px;
+  text-decoration: none;
+  position: relative;
+}
+
+.application__contacts__column__address__link::before {
+  content: url("../img/Location_icon.svg");
+  position: absolute;
+  left: 0;
+}
+
+.application__message {
+  width: 49%;
+}
+
+.application__message__form input {
+  margin-top: 12px;
+}
+
+.application__message__form input:hover {
+  outline: 1px solid #618084;
+}
+
+.application__message__form input:focus {
+  outline: 2px solid #00cebf;
+  box-shadow: 0px 0px 0px 4px rgba(0, 206, 191, 0.2);
+}
+
+.application__message__form textarea {
+  margin-top: 12px;
+}
+
+.application__message__form textarea:hover {
+  outline: 1px solid #618084;
+}
+
+.application__message__form textarea:focus {
+  outline: 2px solid #00cebf;
+  box-shadow: 0px 0px 0px 4px rgba(0, 206, 191, 0.2);
+}
+
+.application__message__form__text {
+  font-family: "Cera Round Pro Medium";
+  font-size: 16px;
+  color: #003E47;
+}
+
+.application__message__form__name {
+  width: 750px;
+  height: 51px;
+  font-family: "Cera Round Pro Medium";
+  font-size: 15px;
+  color: #003E47;
+  padding-left: 15px;
+  border: 1px solid #E3EFEE;
+  border-radius: 8px;
+  margin-bottom: 32px;
+}
+
+.application__message__form__number {
+  width: 750px;
+  height: 51px;
+  font-family: "Cera Round Pro Medium";
+  font-size: 15px;
+  color: #003E47;
+  padding-left: 15px;
+  border: 1px solid #E3EFEE;
+  border-radius: 8px;
+  margin-bottom: 32px;
+}
+
+.application__message__form__email {
+  width: 750px;
+  height: 51px;
+  font-family: "Cera Round Pro Medium";
+  font-size: 15px;
+  color: #003E47;
+  padding-left: 15px;
+  border: 1px solid #E3EFEE;
+  border-radius: 8px;
+  margin-bottom: 32px;
+}
+
+.application__message__form__textarea {
+  width: 750px;
+  height: 140px;
+  font-family: "Cera Round Pro Medium";
+  font-size: 15px;
+  border: 1px solid #E3EFEE;
+  border-radius: 8px;
+  padding-top: 16px;
+  line-height: 15px;
+  padding-left: 15px;
+  color: #003E47;
+  margin-bottom: 31px;
+}
+
+.application__message__form__btn {
+  width: 144px;
+  height: 51px;
+  font-family: "Cera Round Pro Bold";
+  font-size: 15px;
+  background: #00CEBF;
+  color: #fff;
+  border: none;
+  border-radius: 73px;
+}
+
+.footer {
+  background: #003E47;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.footer .wrapper {
+  width: 1232px;
+  justify-content: space-between;
+}
+
+.footer .links {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 119px;
+  width: 60%;
+}
+
+.footer .links a {
+  margin-bottom: 16px;
+}
+
+.footer__column {
+  width: 230px;
+}
+
+.footer__column__logo {
+  display: flex;
+  align-items: center;
+  padding-right: 30px;
+  margin-bottom: 22px;
+}
+
+.footer__column__logo .layout {
+  display: flex;
+  justify-content: center;
+  width: 48.01px;
+  height: 48.01px;
+  background: #00CEBF;
+  border-radius: 14.36px;
+  align-items: center;
+  margin-right: 11.5px;
+}
+
+.footer__column__logo .layout img {
+  width: 29.1px;
+  height: 30.01px;
+}
+
+.footer__column a {
+  display: block;
+  font-family: "Cera Round Pro Medium";
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  line-height: 15px;
+}
+
+.footer__column a:hover {
+  color: #01B6A9;
+}
+
+.footer__column .link {
+  position: relative;
+  display: inline-block;
+  line-height: 20px;
+  transition: all 0.4s;
+}
+
+.footer__column .link::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: #01B6A9;
+  bottom: 0;
+  transition: width 0.3s ease;
+}
+
+.footer__column .link:hover {
+  color: #01B6A9 !important;
+}
+
+.footer__column .link:hover::before {
+  width: 100%;
+}
+
+.footer__column__text {
+  font-family: "Cera Round Pro Medium";
+  font-size: 13px;
+  color: #E3EFEE;
+  line-height: 24px;
+}
+
+.footer__column__text a {
+  display: inline;
+  color: #E3EFEE;
+  text-decoration: underline;
+  font-size: 13px;
+  line-height: 19.5px;
+}
+
+.footer__column__text a:hover {
+  color: #01B6A9;
+}
+
+.footer__btn {
+  width: 192px;
+  height: 51px;
+  font-size: 15px;
+  font-family: "Cera Round Pro Bold";
+  border-radius: 73px;
+  background: #00CEBF;
+  color: #fff;
+  text-decoration: none;
+  padding: 18px 30px;
+}
+
+.footer .copyright-small {
+  display: none;
+}
+
+@media (max-width: 1559px) {
+  .header__menu__list {
+    width: 67%;
+  }
+  .head__block {
+    width: 660px;
+    margin-top: 85px;
+  }
+  .head__block__title {
+    width: 660px;
+  }
+  .head__block__text {
+    width: 625px;
+  }
+  .head__form {
+    flex-wrap: wrap;
+    width: 432px;
+    height: 207px;
+  }
+  .head__form .from {
+    width: 205px;
+  }
+  .head__form .from::before {
+    left: 0;
+  }
+  .head__form .amount {
+    width: 100px;
+  }
+  .head__form__label {
+    margin-left: 10px;
+    height: 24px;
+    align-items: center;
+  }
+  .head__form__label:nth-child(4) {
+    border-right: none;
+  }
+  .head__form__label__town {
+    width: 140px;
+    margin-left: 28px;
+  }
+  .head__form__label__calendar {
+    width: 160px;
+  }
+  .head__form__label__amount {
+    width: 75px;
+  }
+  .head__form__btn {
+    margin-left: 15px;
+    border-radius: 55px;
+    width: 160px;
+  }
+  .head__form .calendar {
+    width: 205px;
+    margin-right: 15px;
+  }
+  .head__form .calendar .count {
+    width: 32px;
+  }
+  .about .wrapper {
+    align-items: center;
+  }
+  .about__block__text {
+    width: 100%;
+  }
+  .about__block__facts__fact {
+    width: 48.32%;
+  }
+  .about__background {
+    width: 49%;
+  }
+  .about__background img {
+    width: 100%;
+  }
+  .services .wrapper {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .services__service {
+    margin-right: 0;
+    width: 31%;
+  }
+  .experience__column {
+    width: 32%;
+  }
+  .experience__column__block {
+    width: 93%;
+  }
+  .experience__column__block__image img {
+    width: 100%;
+  }
+  .experience__column__block__text {
+    width: 97%;
+  }
+  .advantages .wrapper {
+    justify-content: space-evenly;
+  }
+  .advantages__title {
+    width: 304px;
+    margin: 0 auto;
+  }
+  .advantages__column {
+    width: 30%;
+  }
+  .reviews .wrapper .review .text {
+    width: 100%;
+  }
+  .reviews .swiper-button-next, .reviews .team .swiper-rtl .swiper-button-prev {
+    top: 40%;
+  }
+  .reviews .swiper-button-prev, .reviews .team .swiper-rtl .swiper-button-next {
+    top: 40%;
+  }
+  .team .image img {
+    width: 100%;
+  }
+  .application__contacts .wrapper {
+    flex-direction: column;
+  }
+  .application__contacts__column {
+    width: 65%;
+    padding-top: 30px;
+  }
+  .application__message__form input {
+    width: 100%;
+  }
+  .application__message__form textarea {
+    width: 100%;
+  }
+  .footer .wrapper {
+    width: auto;
+  }
+}
+
+@media (max-width: 1179px) {
+  .header {
+    display: none;
+  }
+  .header-small {
+    display: block;
+  }
+  .head__wrapper {
+    flex-direction: column-reverse;
+  }
+  .head__block {
+    margin-top: 50px;
+    width: 100%;
+  }
+  .head__block__title {
+    width: 100%;
+  }
+  .head__block__text {
+    width: 100%;
+  }
+  .head__form {
+    width: 962px;
+    height: 50px;
+  }
+  .head__form__label:nth-child(2) {
+    border-right: 1px solid #618084;
+  }
+  .head__form__label__town {
+    width: 130px;
+  }
+  .head__form__label__amount {
+    width: 40px !important;
+  }
+  .head__form .from {
+    width: 185px;
+  }
+  .head__form .in {
+    width: 175px;
+  }
+  .head__form__btn {
+    width: 195px;
+    border-radius: 0 16px 16px 0;
+    margin: 0;
+  }
+  .head__background__figure {
+    width: 550px;
+    height: 523px;
+    margin-left: 110px;
+  }
+  .head__background__figure img {
+    width: 1300px;
+    left: -90px;
+  }
+  .services {
+    background: linear-gradient(180deg, #ecfffe 0%, rgba(236, 255, 254, 0) 100%);
+    padding-top: 44px;
+  }
+  .services__service {
+    background: #fff;
+  }
+  .services__service__text {
+    width: 91%;
+  }
+  .advantages .wrapper {
+    justify-content: space-between;
+  }
+  .routes {
+    padding-bottom: 18px;
+  }
+  .routes .wrapper {
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  .routes__column {
+    width: 30%;
+    margin-bottom: 30px;
+  }
+  .experience .wrapper {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .experience .block {
+    padding-bottom: 48px;
+  }
+  .experience__column {
+    width: 47%;
+    margin-bottom: 30px;
+  }
+  .experience__column__block__title {
+    padding-bottom: 17px;
+  }
+  .advantages {
+    padding-bottom: 48px;
+  }
+  .advantages .wrapper {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .advantages__column {
+    width: 48.32%;
+  }
+  .advantages__column__text {
+    width: 87%;
+  }
+  .reviews .wrapper {
+    flex-direction: column;
+  }
+  .reviews .wrapper .review .name {
+    text-align: center;
+  }
+  .reviews .wrapper .review .text {
+    width: 100%;
+  }
+  .reviews .wrapper .image {
+    margin: 0 auto;
+  }
+  .team {
+    padding-top: 48px;
+  }
+  .team .container {
+    padding-bottom: 54px;
+  }
+  .team .image img {
+    object-fit: cover;
+    object-position: top;
+  }
+  .application {
+    padding-top: 47px;
+  }
+  .application .block {
+    padding-bottom: 49px;
+  }
+  .application__contacts {
+    width: 400px;
+  }
+  .application__contacts__column {
+    width: 100%;
+  }
+  .application__contacts__contact__mail {
+    padding-top: 24px;
+  }
+  .application__message {
+    width: 53%;
+  }
+  .application__message__form input {
+    width: 100%;
+  }
+  .application__message__form textarea {
+    width: 100%;
+  }
+  .footer .wrapper {
+    width: 100%;
+  }
+  .footer__column {
+    width: 170px;
+  }
+  .footer__column__logo {
+    padding-right: 0;
+  }
+  .footer .links {
+    width: 47%;
+  }
+}
+
+@media (max-width: 991px) {
+  .head__form {
+    width: 738px;
+  }
+  .head__form__label {
+    width: 154px;
+    margin-right: 0;
+  }
+  .head__form__label__town {
+    width: 125px;
+  }
+  .head__form__label .town-in {
+    width: 125px;
+  }
+  .head__form__label__calendar {
+    width: 125px;
+  }
+  .head__form__label__amount {
+    width: 40px !important;
+  }
+  .head__form .in {
+    width: 154px;
+  }
+  .head__form .from {
+    width: 154px;
+  }
+  .head__form .amount {
+    width: 70px;
+  }
+  .head__form .calendar {
+    width: 154px;
+    margin-right: 0;
+  }
+  .head__form__btn {
+    width: 164px !important;
+    border-radius: 0 16px 16px 0;
+  }
+  .head__background__figure {
+    width: 447px;
+    height: 440px;
+    margin-left: 95px;
+  }
+  .head__background__figure img {
+    width: 1124px;
+    left: -86px;
+    top: -28px;
+  }
+  .about .wrapper {
+    flex-direction: column;
+  }
+  .about__block {
+    text-align: center;
+    width: 100%;
+  }
+  .about__block__title {
+    margin: 0 auto;
+  }
+  .about__block__facts {
+    justify-content: space-between;
+  }
+  .about__block__facts__fact {
+    width: 31%;
+  }
+  .about__background {
+    width: 100%;
+  }
+  .about__background img {
+    height: 500px;
+  }
+  .services__service {
+    width: 48%;
+  }
+  .experience__column {
+    width: 100%;
+  }
+  .experience__column__block img {
+    max-height: 377px;
+    object-fit: cover;
+  }
+  .advantages__column {
+    width: 47%;
+  }
+  .application {
+    padding-bottom: 48px;
+  }
+  .application .wrapper {
+    flex-direction: column;
+  }
+  .application__contacts {
+    width: 100%;
+    margin-bottom: 29px;
+  }
+  .application__contacts__column {
+    width: 50%;
+  }
+  .application__message {
+    width: 100%;
+  }
+  .application__message__form__btn {
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+  .footer .wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer__column {
+    text-align: center;
+  }
+  .footer__column:first-child {
+    margin-bottom: 30px;
+  }
+  .footer__column a {
+    margin: 0 auto;
+  }
+  .footer .links {
+    height: auto;
+    margin-bottom: 16px;
+  }
+  .footer .copyright-big {
+    display: none;
+  }
+  .footer .copyright-small {
+    display: block;
+    text-align: center;
+    margin-top: 52px;
+  }
+}
+
+@media (max-width: 767px) {
+  .head {
+    padding-bottom: 96px;
+  }
+  .head__block__title {
+    font-size: 42px;
+    line-height: 50.4px;
+  }
+  .head__form {
+    flex-wrap: wrap;
+    width: 100%;
+    height: 207px;
+  }
+  .head__form .from {
+    width: 46%;
+  }
+  .head__form .from::before {
+    left: 0;
+  }
+  .head__form .in {
+    width: 46%;
+  }
+  .head__form .calendar {
+    width: 46%;
+    margin-right: 15px;
+  }
+  .head__form .amount {
+    width: 46%;
+    margin-left: 0;
+  }
+  .head__form__label {
+    margin-left: 10px;
+    height: 24px;
+    align-items: center;
+  }
+  .head__form__label:nth-child(4) {
+    border-right: none;
+  }
+  .head__form__label:nth-child(2) {
+    border-right: none;
+  }
+  .head__form__label__town {
+    width: 81%;
+    margin-left: 28px;
+  }
+  .head__form__label .town-in {
+    width: 81%;
+  }
+  .head__form__label__calendar {
+    width: 88%;
+  }
+  .head__form__label__amount {
+    width: 40%;
+  }
+  .head__form__btn {
+    margin-left: 15px;
+    border-radius: 55px;
+    width: 160px;
+  }
+  .head__form .count {
+    width: 32px;
+  }
+  .head__background__figure {
+    width: 360px;
+    height: 345px;
+  }
+  .head__background__figure img {
+    width: 921px;
+    left: -70px;
+    top: -23px;
+  }
+  .about {
+    padding-top: 0;
+  }
+  .about__block__facts__fact {
+    width: 48%;
+  }
+  .about__block__facts__fact__text {
+    width: 100%;
+  }
+  .about__background img {
+    height: 450px;
+  }
+  .services__service {
+    width: 100%;
+  }
+  .experience__column {
+    width: 100%;
+  }
+  .experience__column__block img {
+    height: auto;
+  }
+  .advantages__column {
+    width: 100%;
+  }
+  .reviews .container {
+    padding: 0 15px;
+  }
+  .reviews .swiper-button-prev, .reviews .reviews .reviews .swiper-rtl .swiper-button-next {
+    left: 0;
+    top: auto;
+    bottom: 0;
+  }
+  .reviews .swiper-button-next, .reviews .reviews .reviews .swiper-rtl .swiper-button-prev {
+    right: 0;
+    top: auto;
+    bottom: 0;
+  }
+  .reviews .wrapper .review {
+    padding-left: 0;
+  }
+  .reviews .wrapper .review .name {
+    text-align: start;
+  }
+  .team .block {
+    padding-bottom: 50px;
+  }
+  .team .swiper-button-prev, .team .team .team .swiper-rtl .swiper-button-next {
+    left: 0;
+    top: auto;
+  }
+  .team .swiper-button-next, .team .team .team .swiper-rtl .swiper-button-prev {
+    right: 0;
+    top: auto;
+  }
+  .application__title {
+    width: 207px;
+  }
+  .application__contacts__column {
+    width: 100%;
+  }
+  .footer .wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer__column:first-child {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .footer__column a {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 575px) {
+  .head {
+    padding-bottom: 45px;
+  }
+  .head__block {
+    margin-top: 28px;
+  }
+  .head__block__title {
+    font-size: 42px;
+    line-height: 50.4px;
+  }
+  .head__block__text {
+    padding-bottom: 35px;
+  }
+  .head__form__label input {
+    width: 75% !important;
+  }
+  .head__background__figure {
+    width: 335px;
+    height: 334.04px;
+    margin-left: 48px;
+    margin-top: 36px;
+  }
+  .head__background__figure img {
+    width: 783px;
+    left: -48px;
+    top: -18px;
+  }
+  .about {
+    padding-top: 45px;
+    padding-bottom: 47px;
+  }
+  .about__block__title::before {
+    left: -31px;
+  }
+  .about__block__facts__fact {
+    width: 100%;
+  }
+  .about__block__facts__fact__title {
+    margin-bottom: 17px;
+  }
+  .about__background img {
+    min-height: 297px;
+    height: 100%;
+  }
+  .services {
+    padding-bottom: 31px;
+  }
+  .services .block {
+    padding-bottom: 51px;
+  }
+  .services__title::before {
+    left: -25px;
+  }
+  .services__service {
+    width: 100%;
+    margin-bottom: 31px;
+  }
+  .services__service__title {
+    padding-bottom: 18px;
+  }
+  .routes {
+    padding-top: 31px;
+  }
+  .routes .wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .routes .block {
+    padding-bottom: 50px;
+  }
+  .routes__title::before {
+    left: -22px;
+    top: -14px;
+  }
+  .routes__column {
+    width: 100%;
+  }
+  .experience {
+    padding-top: 46px;
+    padding-bottom: 20px;
+  }
+  .experience__column {
+    width: 100%;
+    padding-top: 22px;
+  }
+  .experience__column__block__image {
+    margin-bottom: 12px;
+  }
+  .experience__column__block__image img {
+    object-fit: cover;
+  }
+  .advantages {
+    padding-top: 46px;
+  }
+  .advantages__title {
+    padding-bottom: 21px;
+  }
+  .advantages__column {
+    width: 100%;
+  }
+  .advantages__column__title {
+    padding-bottom: 19px;
+  }
+  .advantages__column img {
+    margin-bottom: 12px;
+  }
+  .reviews {
+    padding-top: 46px;
+    padding-bottom: 26px;
+  }
+  .reviews__title::before {
+    left: -21px;
+    top: -14px;
+  }
+  .reviews .block {
+    padding-bottom: 50px;
+  }
+  .reviews .wrapper .image {
+    margin-bottom: 14px;
+  }
+  .reviews .wrapper .review .name {
+    padding-bottom: 15px;
+  }
+  .reviews .wrapper .review .town {
+    padding-bottom: 18px;
+  }
+  .reviews .wrapper .review .text {
+    line-height: 22.8px;
+  }
+  .reviews .swiper {
+    height: 100%;
+  }
+  .reviews .swiper-button-prev, .reviews .team .team .swiper-rtl .swiper-button-next {
+    left: -2px;
+    top: auto;
+  }
+  .reviews .swiper-button-next, .reviews .team .team .swiper-rtl .swiper-button-prev {
+    right: -2px;
+    top: auto;
+  }
+  .team .swiper-button-prev, .team .team .team .swiper-rtl .swiper-button-next {
+    left: -2px;
+    top: auto;
+  }
+  .team .swiper-button-next, .team .team .team .swiper-rtl .swiper-button-prev {
+    right: -2px;
+    top: auto;
+  }
+  .application__title::before {
+    left: -24px;
+    top: -15px;
+  }
+  .application__contacts__contact {
+    width: 100%;
+  }
+  .application__contacts__columт__messengers {
+    width: 100%;
+  }
+  .application__message__form__textarea {
+    margin-bottom: 27px;
+  }
+}
+
+@media (max-width: 374px) {
+  .head__form {
+    height: 250px;
+  }
+  .head__form__label {
+    width: 100% !important;
+    border-right: none !important;
+    margin-left: 15px !important;
+  }
+  .head__form__btn {
+    margin-top: 16px;
+  }
+  .application__contacts__contact__mail {
+    margin-top: 16px;
+    padding-left: 0;
+  }
+  .application__contacts__contact__mail::before {
+    top: -10px;
+    left: 44%;
+  }
+}
