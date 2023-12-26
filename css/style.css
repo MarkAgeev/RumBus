@@ -1919,11 +1919,13 @@ input[type="date"] {
 
 .application__message__form input:hover {
   outline: 1px solid #618084;
+  border-radius: 8px;
 }
 
 .application__message__form input:focus {
   outline: 2px solid #00cebf;
   box-shadow: 0px 0px 0px 4px rgba(0, 206, 191, 0.2);
+  border-radius: 8px;
 }
 
 .application__message__form textarea {
@@ -1932,11 +1934,13 @@ input[type="date"] {
 
 .application__message__form textarea:hover {
   outline: 1px solid #618084;
+  border-radius: 8px;
 }
 
 .application__message__form textarea:focus {
   outline: 2px solid #00cebf;
   box-shadow: 0px 0px 0px 4px rgba(0, 206, 191, 0.2);
+  border-radius: 8px;
 }
 
 .application__message__form__text {
