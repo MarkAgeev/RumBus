@@ -167,7 +167,7 @@ function isElementInViewport(el) {
     return (
         // rect.top >= 0 &&
         rect.left >= 0 &&
-        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) + 200 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) + 400 &&
         rect.right <= (window.innerWidth || document.documentElement.clientWidth)
     );
 }
