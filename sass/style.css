@@ -7,10 +7,8 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 html {
-  line-height: 1.15;
-  /* 1 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
 }
 
 /* Sections
@@ -45,12 +43,9 @@ h1 {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
-  box-sizing: content-box;
-  /* 1 */
-  height: 0;
-  /* 1 */
-  overflow: visible;
-  /* 2 */
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
 }
 
 /**
@@ -58,10 +53,8 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /* Text-level semantics
@@ -78,12 +71,9 @@ a {
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
 abbr[title] {
-  border-bottom: none;
-  /* 1 */
-  text-decoration: underline;
-  /* 2 */
-  text-decoration: underline dotted;
-  /* 2 */
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -101,10 +91,8 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /**
@@ -154,14 +142,10 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit;
-  /* 1 */
-  font-size: 100%;
-  /* 1 */
-  line-height: 1.15;
-  /* 1 */
-  margin: 0;
-  /* 2 */
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
 }
 
 /**
@@ -169,8 +153,7 @@ textarea {
  * 1. Show the overflow in Edge.
  */
 button,
-input {
-  /* 1 */
+input { /* 1 */
   overflow: visible;
 }
 
@@ -179,8 +162,7 @@ input {
  * 1. Remove the inheritance of text transform in Firefox.
  */
 button,
-select {
-  /* 1 */
+select { /* 1 */
   text-transform: none;
 }
 
@@ -229,18 +211,12 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 legend {
-  box-sizing: border-box;
-  /* 1 */
-  color: inherit;
-  /* 2 */
-  display: table;
-  /* 1 */
-  max-width: 100%;
-  /* 1 */
-  padding: 0;
-  /* 3 */
-  white-space: normal;
-  /* 1 */
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
 }
 
 /**
@@ -263,10 +239,8 @@ textarea {
  */
 [type=checkbox],
 [type=radio] {
-  box-sizing: border-box;
-  /* 1 */
-  padding: 0;
-  /* 2 */
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
 }
 
 /**
@@ -282,10 +256,8 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 [type=search] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  outline-offset: -2px;
-  /* 2 */
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
 }
 
 /**
@@ -300,10 +272,8 @@ textarea {
  * 2. Change font properties to `inherit` in Safari.
  */
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
 }
 
 /* Interactive
@@ -868,7 +838,7 @@ input[type=date] {
 .head__form {
   width: 750px;
   height: 51px;
-  border: 1px solid #e3efee;
+  border: 1px solid rgb(227, 239, 238);
   border-radius: 16px;
   box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.08);
   display: flex;
@@ -969,7 +939,7 @@ input[type=date] {
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
   margin-top: 39px;
-  background: #00cebf;
+  background: rgb(0, 206, 191);
   background: linear-gradient(180deg, rgba(0, 206, 191, 0.5) 0%, rgba(0, 195, 224, 0) 100%, rgba(0, 185, 255, 0) 100%);
   position: relative;
 }
@@ -1183,8 +1153,8 @@ input[type=date] {
 .experience {
   padding-top: 94px;
   padding-bottom: 96px;
-  background: #ecfffe;
-  background: linear-gradient(180deg, #ecfffe 0%, rgba(236, 255, 254, 0) 100%);
+  background: rgb(236, 255, 254);
+  background: linear-gradient(180deg, rgb(236, 255, 254) 0%, rgba(236, 255, 254, 0) 100%);
 }
 .experience .block {
   text-align: center;
@@ -1265,8 +1235,8 @@ input[type=date] {
 .advantages {
   padding-top: 95px;
   padding-bottom: 96px;
-  background: #ecfffe;
-  background: linear-gradient(180deg, #ecfffe 0%, rgba(236, 255, 254, 0) 100%);
+  background: rgb(236, 255, 254);
+  background: linear-gradient(180deg, rgb(236, 255, 254) 0%, rgba(236, 255, 254, 0) 100%);
 }
 .advantages .block {
   text-align: center;
@@ -1329,8 +1299,8 @@ input[type=date] {
 
 .reviews {
   padding-top: 84px;
-  background: #ecfffe;
-  background: linear-gradient(180deg, #ecfffe 0%, rgba(236, 255, 254, 0) 100%);
+  background: rgb(236, 255, 254);
+  background: linear-gradient(180deg, rgb(236, 255, 254) 0%, rgba(236, 255, 254, 0) 100%);
 }
 .reviews .container {
   overflow: hidden;
@@ -1570,8 +1540,8 @@ input[type=date] {
 .application {
   padding-top: 94px;
   padding-bottom: 96px;
-  background: #ecfffe;
-  background: linear-gradient(180deg, #ecfffe 0%, rgba(236, 255, 254, 0) 100%);
+  background: rgb(236, 255, 254);
+  background: linear-gradient(180deg, rgb(236, 255, 254) 0%, rgba(236, 255, 254, 0) 100%);
 }
 .application .block {
   text-align: center;
@@ -1706,12 +1676,12 @@ input[type=date] {
 }
 .application__message__form input:hover {
   outline: none;
-  border: 1px solid #618084;
+  border: 1px solid rgb(97, 128, 132);
   border-radius: 8px;
 }
 .application__message__form input:focus {
   outline: none;
-  border: 2px solid #00cebf;
+  border: 2px solid rgb(0, 206, 191);
   -webkit-box-shadow: 0px 0px 0px 4px rgba(0, 206, 191, 0.2);
   -moz-box-shadow: 0px 0px 0px 4px rgba(0, 206, 191, 0.2);
   box-shadow: 0px 0px 0px 4px rgba(0, 206, 191, 0.2);
@@ -1722,12 +1692,12 @@ input[type=date] {
 }
 .application__message__form textarea:hover {
   outline: none;
-  border: 1px solid #618084;
+  border: 1px solid rgb(97, 128, 132);
   border-radius: 8px;
 }
 .application__message__form textarea:focus {
   outline: none;
-  border: 2px solid #00cebf;
+  border: 2px solid rgb(0, 206, 191);
   -webkit-box-shadow: 0px 0px 0px 4px rgba(0, 206, 191, 0.2);
   -moz-box-shadow: 0px 0px 0px 4px rgba(0, 206, 191, 0.2);
   box-shadow: 0px 0px 0px 4px rgba(0, 206, 191, 0.2);
@@ -1904,7 +1874,6 @@ input[type=date] {
   .header__menu__list {
     width: 67%;
   }
-
   .head__block {
     width: 660px;
     margin-top: 85px;
@@ -1959,7 +1928,6 @@ input[type=date] {
   .head__form .calendar .count {
     width: 32px;
   }
-
   .about .wrapper {
     align-items: center;
   }
@@ -1975,7 +1943,6 @@ input[type=date] {
   .about__background img {
     width: 100%;
   }
-
   .services .wrapper {
     flex-wrap: wrap;
     justify-content: space-between;
@@ -1984,7 +1951,6 @@ input[type=date] {
     margin-right: 0;
     width: 31%;
   }
-
   .experience__column {
     width: 32%;
   }
@@ -1997,7 +1963,6 @@ input[type=date] {
   .experience__column__block__text {
     width: 97%;
   }
-
   .advantages .wrapper {
     justify-content: space-evenly;
   }
@@ -2008,7 +1973,6 @@ input[type=date] {
   .advantages__column {
     width: 30%;
   }
-
   .reviews .wrapper .review .text {
     width: 100%;
   }
@@ -2018,11 +1982,9 @@ input[type=date] {
   .reviews .swiper-button-prev, .reviews .team .swiper-rtl .swiper-button-next {
     top: 40%;
   }
-
   .team .image img {
     width: 100%;
   }
-
   .application__contacts .wrapper {
     flex-direction: column;
   }
@@ -2036,7 +1998,6 @@ input[type=date] {
   .application__message__form textarea {
     width: 100%;
   }
-
   .footer .wrapper {
     width: auto;
   }
@@ -2045,11 +2006,9 @@ input[type=date] {
   .header {
     display: none;
   }
-
   .header-small {
     display: block;
   }
-
   .head__wrapper {
     flex-direction: column-reverse;
   }
@@ -2096,7 +2055,6 @@ input[type=date] {
     width: 1300px;
     left: -90px;
   }
-
   .services {
     background: linear-gradient(180deg, #ecfffe 0%, rgba(236, 255, 254, 0) 100%);
     padding-top: 44px;
@@ -2107,11 +2065,9 @@ input[type=date] {
   .services__service__text {
     width: 91%;
   }
-
   .advantages .wrapper {
     justify-content: space-between;
   }
-
   .routes {
     padding-bottom: 18px;
   }
@@ -2124,7 +2080,6 @@ input[type=date] {
     width: 30%;
     margin-bottom: 30px;
   }
-
   .experience .wrapper {
     justify-content: space-around;
     flex-wrap: wrap;
@@ -2139,7 +2094,6 @@ input[type=date] {
   .experience__column__block__title {
     padding-bottom: 17px;
   }
-
   .advantages {
     padding-bottom: 48px;
   }
@@ -2153,7 +2107,6 @@ input[type=date] {
   .advantages__column__text {
     width: 87%;
   }
-
   .reviews .wrapper {
     flex-direction: column;
   }
@@ -2166,7 +2119,6 @@ input[type=date] {
   .reviews .wrapper .image {
     margin: 0 auto;
   }
-
   .team {
     padding-top: 48px;
   }
@@ -2177,7 +2129,6 @@ input[type=date] {
     object-fit: cover;
     object-position: top;
   }
-
   .application {
     padding-top: 47px;
   }
@@ -2202,7 +2153,6 @@ input[type=date] {
   .application__message__form textarea {
     width: 100%;
   }
-
   .footer .wrapper {
     width: 100%;
   }
@@ -2263,7 +2213,6 @@ input[type=date] {
     left: -86px;
     top: -28px;
   }
-
   .about .wrapper {
     flex-direction: column;
   }
@@ -2286,11 +2235,9 @@ input[type=date] {
   .about__background img {
     height: 500px;
   }
-
   .services__service {
     width: 48%;
   }
-
   .experience__column {
     width: 100%;
   }
@@ -2298,11 +2245,9 @@ input[type=date] {
     max-height: 377px;
     object-fit: cover;
   }
-
   .advantages__column {
     width: 47%;
   }
-
   .application {
     padding-bottom: 48px;
   }
@@ -2324,7 +2269,6 @@ input[type=date] {
     margin: 0 auto;
     cursor: pointer;
   }
-
   .footer .wrapper {
     flex-direction: column;
     align-items: center;
@@ -2422,7 +2366,6 @@ input[type=date] {
     left: -70px;
     top: -23px;
   }
-
   .about {
     padding-top: 0;
   }
@@ -2435,22 +2378,18 @@ input[type=date] {
   .about__background img {
     height: 450px;
   }
-
   .services__service {
     width: 100%;
   }
-
   .experience__column {
     width: 100%;
   }
   .experience__column__block img {
     height: auto;
   }
-
   .advantages__column {
     width: 100%;
   }
-
   .reviews .container {
     padding: 0 15px;
   }
@@ -2470,7 +2409,6 @@ input[type=date] {
   .reviews .wrapper .review .name {
     text-align: start;
   }
-
   .team .block {
     padding-bottom: 50px;
   }
@@ -2482,14 +2420,12 @@ input[type=date] {
     right: 0;
     top: auto;
   }
-
   .application__title {
     width: 207px;
   }
   .application__contacts__column {
     width: 100%;
   }
-
   .footer .wrapper {
     flex-direction: column;
     align-items: center;
@@ -2530,7 +2466,6 @@ input[type=date] {
     left: -48px;
     top: -18px;
   }
-
   .about {
     padding-top: 45px;
     padding-bottom: 47px;
@@ -2548,7 +2483,6 @@ input[type=date] {
     min-height: 297px;
     height: 100%;
   }
-
   .services {
     padding-bottom: 31px;
   }
@@ -2565,7 +2499,6 @@ input[type=date] {
   .services__service__title {
     padding-bottom: 18px;
   }
-
   .routes {
     padding-top: 31px;
   }
@@ -2583,7 +2516,6 @@ input[type=date] {
   .routes__column {
     width: 100%;
   }
-
   .experience {
     padding-top: 46px;
     padding-bottom: 20px;
@@ -2598,7 +2530,6 @@ input[type=date] {
   .experience__column__block__image img {
     object-fit: cover;
   }
-
   .advantages {
     padding-top: 46px;
   }
@@ -2614,7 +2545,6 @@ input[type=date] {
   .advantages__column img {
     margin-bottom: 12px;
   }
-
   .reviews {
     padding-top: 46px;
     padding-bottom: 26px;
@@ -2649,7 +2579,6 @@ input[type=date] {
     right: -2px;
     top: auto;
   }
-
   .team .swiper-button-prev, .team .team .team .swiper-rtl .swiper-button-next {
     left: -2px;
     top: auto;
@@ -2658,7 +2587,6 @@ input[type=date] {
     right: -2px;
     top: auto;
   }
-
   .application__title::before {
     left: -24px;
     top: -15px;
@@ -2685,7 +2613,6 @@ input[type=date] {
   .head__form__btn {
     margin-top: 16px;
   }
-
   .application__contacts__contact__mail {
     margin-top: 16px;
     padding-left: 0;
@@ -2694,4 +2621,4 @@ input[type=date] {
     top: -10px;
     left: 44%;
   }
-}
+}/*# sourceMappingURL=style.css.map */
