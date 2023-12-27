@@ -1926,6 +1926,8 @@ input[type="date"] {
 .application__message__form input:focus {
   outline: none;
   border: 2px solid #00cebf;
+  -webkit-box-shadow: 0px 0px 0px 4px rgba(0, 206, 191, 0.2);
+  -moz-box-shadow: 0px 0px 0px 4px rgba(0, 206, 191, 0.2);
   box-shadow: 0px 0px 0px 4px rgba(0, 206, 191, 0.2);
   border-radius: 8px;
 }
@@ -1943,6 +1945,8 @@ input[type="date"] {
 .application__message__form textarea:focus {
   outline: none;
   border: 2px solid #00cebf;
+  -webkit-box-shadow: 0px 0px 0px 4px rgba(0, 206, 191, 0.2);
+  -moz-box-shadow: 0px 0px 0px 4px rgba(0, 206, 191, 0.2);
   box-shadow: 0px 0px 0px 4px rgba(0, 206, 191, 0.2);
   border-radius: 8px;
 }
